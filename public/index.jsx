@@ -5,6 +5,6 @@ import { Router, Route, browserHistory} from 'react-router';
 // import './styles/main.scss';
 import Nav from './components/Nav/Nav.jsx';
 
-const app = document.getElementById('app')
+const APP = document.getElementById('APP')
 
-ReactDOM.render(<Nav />, app)
+ReactDOM.render(<Nav />, APP)
