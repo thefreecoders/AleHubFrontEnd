@@ -1,46 +1,4 @@
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId])
-/******/ 			return installedModules[moduleId].exports;
-
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			exports: {},
-/******/ 			id: moduleId,
-/******/ 			loaded: false
-/******/ 		};
-
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-
-/******/ 		// Flag the module as loaded
-/******/ 		module.loaded = true;
-
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-
-
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(0);
-/******/ })
-/************************************************************************/
-/******/ ([
+webpackJsonp([0,1],[
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -56,17 +14,18 @@
 
 	var _reactRouter = __webpack_require__(172);
 
-	__webpack_require__(235);
-
-	var _Nav = __webpack_require__(236);
+	var _Nav = __webpack_require__(235);
 
 	var _Nav2 = _interopRequireDefault(_Nav);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var app = document.getElementById('app');
+	var APP = document.getElementById('APP');
 
-	_reactDom2.default.render(_react2.default.createElement(_Nav2.default, null), app);
+	// import './styles/main.scss';
+
+
+	_reactDom2.default.render(_react2.default.createElement(_Nav2.default, null), APP);
 
 /***/ },
 /* 1 */
@@ -27091,33 +27050,11 @@
 /* 235 */
 /***/ function(module, exports, __webpack_require__) {
 
-	// style-loader: Adds some css to the DOM by adding a <style> tag
+	"use strict";
 
-	// load the styles
-	var content = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./main.scss\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!./../../node_modules/style-loader/addStyles.js\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()))(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./main.scss", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./main.scss");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 236 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -27143,33 +27080,100 @@
 	  }
 
 	  _createClass(Nav, [{
-	    key: 'render',
+	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
-	        null,
+	        "nav",
+	        { className: "navbar navbar-default" },
 	        _react2.default.createElement(
-	          'ul',
-	          null,
+	          "div",
+	          { className: "container-fluid" },
 	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Home'
+	            "div",
+	            { className: "navbar-header" },
+	            _react2.default.createElement(
+	              "button",
+	              { className: "navbar-toggle collapsed", "data-toggle": "collapse", "data-target": "#navbar", "aria-expanded": "false" },
+	              _react2.default.createElement(
+	                "span",
+	                { className: "sr-only" },
+	                "Toggle Navigation"
+	              ),
+	              _react2.default.createElement("span", { className: "icon-bar" }),
+	              _react2.default.createElement("span", { className: "icon-bar" }),
+	              _react2.default.createElement("span", { className: "icon-bar" })
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#", className: "navbar-brand" },
+	              "Top 100"
+	            )
 	          ),
 	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Tap Room'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Beers'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Brewers'
+	            "div",
+	            { id: "navbar", className: "collapse navbar-collapse" },
+	            _react2.default.createElement(
+	              "ul",
+	              { className: "nav navbar-nav" },
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                _react2.default.createElement(
+	                  "a",
+	                  { href: "" },
+	                  "Home"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                _react2.default.createElement(
+	                  "a",
+	                  { href: "" },
+	                  "Tap Room"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                _react2.default.createElement(
+	                  "a",
+	                  { href: "" },
+	                  "Beers"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                _react2.default.createElement(
+	                  "a",
+	                  { href: "" },
+	                  "Brewers"
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "ul",
+	              { className: "nav navbar-nav navbar-right" },
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                _react2.default.createElement(
+	                  "a",
+	                  { href: "" },
+	                  "Register"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                _react2.default.createElement(
+	                  "a",
+	                  { href: "" },
+	                  "Login"
+	                )
+	              )
+	            )
 	          )
 	        )
 	      );
@@ -27179,5 +27183,7 @@
 	  return Nav;
 	}(_react2.default.Component);
 
+	exports.default = Nav;
+
 /***/ }
-/******/ ]);
+]);

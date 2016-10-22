@@ -2,10 +2,10 @@ var webpack = require('webpack');
 var path = require('path')
 
 module.exports = {
-  context: __dirname + '/src',
+  context: __dirname + '/public',
   entry: './index.jsx',
   output: {
-    path: __dirname + '/src/build',
+    path: __dirname + '/public/scripts',
     filename: 'AleHubFrontEnd.bundle.js'
   },
   module: {
@@ -17,15 +17,11 @@ module.exports = {
         query: {
           presets: ['react', 'es2015']
         }
-      },
-      // {
-      //   test: /\.scss$/,
-      //   loader: 'style!css!sass'
-      // }
+      }
     ]
   },
-  // plugins: [
-  //   new webpack.OldWatchingPlugin(),
-  // //   new webpack.optimize.CommonsChuckPlugin(/* chunkName = */"vendor", /*filename=*/'vendor.bundle.js')
-  // ]
+  plugins: [
+    new webpack.OldWatchingPlugin(),
+    new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"vendor.bundle.js")
+  ]
 }
