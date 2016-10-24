@@ -1,5 +1,12 @@
 #Ale Hub
 ###Front-End
+####Starting Server for Development:
+1. git clone [https://github.com/thefreecoders/AleHubFrontEnd.git](https://github.com/thefreecoders/AleHubFrontEnd.git)
+2. cd AleHubFrontEnd
+3. npm install
+4. npm run-script dev (Developer Mode) || npm start (Production Server)
+5. Eat you Veggies
+6. Enjoy
 ***
 ####Objective:
 1. Allow users to find their favorite beer.
