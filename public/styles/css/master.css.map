@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAY;EACV,aAAa,EAAE,CAAC;EAChB,gBAAgB,ECIN,OAAU;EDHpB,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,iBAAkB;EAE/B,uBAAW;IACT,KAAK,ECCC,OAAY;IDAlB,gBAAgB,ECHZ,OAAU;EDMlB,aAAI;IACA,KAAK,EAAE,KAAK;IACd,mBAAQ;MACN,KAAK,ECNC,OAAY;MDOlB,gBAAgB,ECVZ,OAAU",
+"sources": ["../scss/index/nav/_nav.scss","../scss/index/colorScheme/_mainColors.scss"],
+"names": [],
+"file": "master.css"
+}
