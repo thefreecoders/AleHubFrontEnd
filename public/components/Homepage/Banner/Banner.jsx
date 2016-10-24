@@ -4,7 +4,8 @@ export default class Banner extends React.Component {
   render () {
     return (
       <div>
-        <img src="img/banner.jpg" alt=""/>
+      //TODO: Change
+        <img src="public/img/banner.jpg" alt=""/>
         <h1 className="hidden-xs">
           Find the Barstool with Your Name on It.
           <button className="btn btn-main btn-focus">
