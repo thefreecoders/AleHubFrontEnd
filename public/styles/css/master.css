@@ -62,7 +62,7 @@ h5 {
     background: #6C0000;
     background: -webkit-linear-gradient(top, #e8c254, #cc5502);
     background: linear-gradient(to bottom, #e8c254, #cc5502);
-    border-color: #e8c254 #da8c2b #cc5502; }
+    border-color: #e8c254 #da8b2b #cc5502; }
   .btn-main:active {
     color: #000;
     background: #6C0000;
@@ -137,5 +137,3 @@ h5 {
       .banner button.show-xs {
         margin: 0 30%;
         width: 40%; } }
-
-/*# sourceMappingURL=master.css.map */
