@@ -1,8 +1,92 @@
+html, body, p, span, a {
+  font-size: 11px;
+  line-height: 18px; }
+  @media (min-width: 480px), (min-height: 480px) and (orientation: landscape) {
+    html, body, p, span, a {
+      font-size: 14px;
+      line-height: 22px; } }
+  @media (min-width: 767px), (min-height: 767px) and (orientation: landscape) {
+    html, body, p, span, a {
+      font-size: 17px;
+      line-height: 28px; } }
+  @media (min-width: 992px), (min-height: 992px) and (orientation: landscape) {
+    html, body, p, span, a {
+      font-size: 19px;
+      line-height: 31px; } }
+  @media (min-width: 1100px), (min-height: 1100px) and (orientation: landscape) {
+    html, body, p, span, a {
+      font-size: 20px;
+      line-height: 33px; } }
+  @media (min-width: 1200px), (min-height: 1200px) and (orientation: landscape) {
+    html, body, p, span, a {
+      font-size: 21px;
+      line-height: 34px; } }
+  @media (min-width: 1500px), (min-height: 1500px) and (orientation: landscape) {
+    html, body, p, span, a {
+      font-size: 24px;
+      line-height: 39px; } }
+
+h1 {
+  font-size: 2.6363rem;
+  line-height: 3.5454rem; }
+
+h2 {
+  font-size: 1.6363rem;
+  line-height: 2.3636rem; }
+
+h3 {
+  font-size: 1.2727rem;
+  line-height: 1.90909rem; }
+
+h4 {
+  font-size: 1rem;
+  line-height: 1rem; }
+
+h5 {
+  font-size: 0.818181rem;
+  line-height: 1.63636rem; }
+
+@media (min-width: 768px) {
+  .show-xs {
+    display: none;
+    visibility: hidden; } }
+
+.btn-main {
+  background: #CC5F02;
+  background: -webkit-linear-gradient(top, #E8C954, #CC5F02);
+  background: linear-gradient(to bottom, #E8C954, #CC5F02);
+  border-color: #be952c #a68226 #9b7924;
+  color: #020; }
+  .btn-main:hover {
+    color: #010;
+    background: #6C0000;
+    background: -webkit-linear-gradient(top, #e8c254, #cc5502);
+    background: linear-gradient(to bottom, #e8c254, #cc5502);
+    border-color: #e8c254 #da8c2b #cc5502; }
+  .btn-main:active {
+    color: #000;
+    background: #6C0000;
+    background: -webkit-linear-gradient(top, #e8b354, #cc4102);
+    background: linear-gradient(to bottom, #e8b354, #cc4102);
+    border-color: #e8b354 #da7a2b #cc4102;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset; }
+
+.btn-focus {
+  padding: 6px 72px; }
+
+.btn-block-focus {
+  max-width: 172px; }
+
 #navbarFull {
   border-radius: 0;
   background-color: #951000;
   color: white;
-  border-bottom: 1px #6C0000 solid; }
+  border-bottom: 1px #6C0000 solid;
+  border-top: none;
+  border-right: none;
+  border-left: none; }
+  #navbarFull.navbar {
+    margin-bottom: 0; }
   #navbarFull li.active a {
     color: #E8C954;
     background-color: #6C0000; }
@@ -11,3 +95,47 @@
     #navbarFull a:hover {
       color: #E8C954;
       background-color: #6C0000; }
+
+.banner {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+  .banner img {
+    width: 100%;
+    z-index: -1; }
+  .banner h1 {
+    background-color: #6c0000;
+    background-color: rgba(108, 0, 0, 0.8);
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 3px 12px 3px black;
+    box-shadow: 0 3px 6px 3px rgba(0, 0, 0, 0.4);
+    margin-top: 5%;
+    padding: 5%; }
+    .banner h1 button {
+      display: block;
+      margin: auto;
+      margin-top: 5%; }
+  .banner button.show-xs {
+    position: absolute;
+    top: 60%;
+    display: block;
+    max-height: 2.4em;
+    margin: 0 10%;
+    width: 80%; }
+    @media (min-width: 480px) {
+      .banner button.show-xs {
+        margin: 0 20%;
+        width: 60%; } }
+    @media (min-width: 650px) {
+      .banner button.show-xs {
+        margin: 0 30%;
+        width: 40%; } }
+
+/*# sourceMappingURL=master.css.map */

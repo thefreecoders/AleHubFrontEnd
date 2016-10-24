@@ -7,9 +7,19 @@
 1. git clone [https://github.com/thefreecoders/AleHubFrontEnd.git](https://github.com/thefreecoders/AleHubFrontEnd.git)
 2. cd AleHubFrontEnd
 3. npm install
-4. npm run-script dev (Developer Mode) or npm start (Production Server)
+4. npm run-script dev
 5. Eat you Veggies
 6. Enjoy
+
+#### Bundle Files for Production
+
+1. git clone [https://github.com/thefreecoders/AleHubFrontEnd.git](https://github.com/thefreecoders/AleHubFrontEnd.git)
+2. cd AleHubFrontEnd
+3. npm install
+4. scss --watch public/styles/scss:public/styles/css (Must have Ruby and Sass Installed Locally)
+5. npm start
+6. Eat you Veggies
+7. Enjoy
 
 ***
 
