@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory} from 'react-router';
 
-// import './styles/main.scss';
+require('./styles/scss/master.scss');
 import Nav from './components/Nav/Nav.jsx';
 
 const APP = document.getElementById('APP')

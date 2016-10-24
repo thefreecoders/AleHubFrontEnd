@@ -76,7 +76,7 @@
 /******/ 			script.charset = 'utf-8';
 /******/ 			script.async = true;
 
-/******/ 			script.src = __webpack_require__.p + "" + chunkId + ".AleHubFrontEnd.bundle.js";
+/******/ 			script.src = __webpack_require__.p + "" + chunkId + ".scripts/AleHubFrontEnd.bundle.js";
 /******/ 			head.appendChild(script);
 /******/ 		}
 /******/ 	};
