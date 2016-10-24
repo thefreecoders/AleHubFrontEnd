@@ -1,3 +1,15 @@
-
+#navbarFull {
+  border-radius: 0;
+  background-color: #951000;
+  color: white;
+  border-bottom: 1px #6C0000 solid; }
+  #navbarFull li.active a {
+    color: #E8C954;
+    background-color: #6C0000; }
+  #navbarFull a {
+    color: white; }
+    #navbarFull a:hover {
+      color: #E8C954;
+      background-color: #6C0000; }
 
 /*# sourceMappingURL=master.css.map */

@@ -27084,7 +27084,7 @@ webpackJsonp([0,1],[
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "nav",
-	        { className: "navbar navbar-default" },
+	        { className: "navbar navbar-default", id: "navbarFull" },
 	        _react2.default.createElement(
 	          "div",
 	          { className: "container-fluid" },
@@ -27106,7 +27106,7 @@ webpackJsonp([0,1],[
 	            _react2.default.createElement(
 	              "a",
 	              { href: "#", className: "navbar-brand" },
-	              "Top 100"
+	              "AleHub"
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -27117,7 +27117,7 @@ webpackJsonp([0,1],[
 	              { className: "nav navbar-nav" },
 	              _react2.default.createElement(
 	                "li",
-	                null,
+	                { className: "active" },
 	                _react2.default.createElement(
 	                  "a",
 	                  { href: "" },

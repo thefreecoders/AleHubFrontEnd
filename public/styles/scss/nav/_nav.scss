@@ -1,0 +1,19 @@
+#navbarFull {
+  border-radius: 0;
+  background-color: $secondary;
+  color: white;
+  border-bottom: 1px $primary solid;
+  & li {
+    &.active a {
+      color: $highlight;
+      background-color: $primary;
+    }
+  }
+  & a {
+      color: white;
+    &:hover {
+      color: $highlight;
+      background-color: $primary;
+    }
+  }
+}
