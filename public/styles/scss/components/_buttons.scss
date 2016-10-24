@@ -1,0 +1,52 @@
+$active-box-shadow: 0 1px 3px rgba(0,0,0,.3) inset;
+
+$b1Hover: adjust-hue($highlight, -3deg);
+$b2Hover: adjust-hue($accent, -3deg);
+$b2HoverBorder: mix($b1Hover, $b2Hover);
+
+$b1Active: adjust-hue($highlight, -9deg);
+$b2Active: adjust-hue($accent, -9deg);
+$b2ActiveBorder: mix($b1Active, $b2Active);
+
+$buttonB1: $accent;
+$buttonB2: -webkit-linear-gradient(top,$highlight,$accent);
+$buttonB3: linear-gradient(to bottom,$highlight,$accent);
+$buttonB1Active: $primary;
+$buttonB2Active: -webkit-linear-gradient(top,$b1Active,$b2Active);
+$buttonB3Active: linear-gradient(to bottom,$b1Active,$b2Active);
+$buttonBoarder: #be952c #a68226 #9b7924;
+$buttonBoarderActive: $b1Active $b2ActiveBorder $b2Active;
+$buttonB1Hover: $primary;
+$buttonB2Hover: -webkit-linear-gradient(top,$b1Hover,$b2Hover);
+$buttonB3Hover: linear-gradient(to bottom,$b1Hover,$b2Hover);
+$buttonBoarderHover: $b1Hover $b2HoverBorder $b2Hover;
+
+
+.btn-main {
+  background: $buttonB1;
+  background: $buttonB2;
+  background: $buttonB3;
+  border-color: $buttonBoarder;
+  color: #020;
+  &:hover {
+    color: #010;
+    background: $buttonB1Hover;
+    background: $buttonB2Hover;
+    background: $buttonB3Hover;
+    border-color: $buttonBoarderHover;
+  }
+  &:active {
+    color: #000;
+    background: $buttonB1Active;
+    background: $buttonB2Active;
+    background: $buttonB3Active;
+    border-color: $buttonBoarderActive;
+    box-shadow: $active-box-shadow;
+  }
+}
+.btn-focus {
+  padding: 6px 72px;
+}
+.btn-block-focus {
+  max-width: 172px;
+}

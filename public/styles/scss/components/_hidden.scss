@@ -1,0 +1,6 @@
+.show-xs {
+  @media (min-width: 768px) {
+    display: none;
+    visibility: hidden;
+  }
+}

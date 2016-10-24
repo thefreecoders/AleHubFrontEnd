@@ -3,6 +3,12 @@
   background-color: $secondary;
   color: white;
   border-bottom: 1px $primary solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  &.navbar {
+    margin-bottom: 0;
+  }
   & li {
     &.active a {
       color: $highlight;
