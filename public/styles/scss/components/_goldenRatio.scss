@@ -21,10 +21,11 @@ html, body, p, span, a {
     font-size: 21px;
     line-height: 34px;
   }
-  @media (min-width: 1500px), (min-height: 1500px) and (orientation: landscape) {
-    font-size: 24px;
-    line-height: 39px;
-  }
+  // UGLY AS FUCK Maybe Change Later TODO
+  // @media (min-width: 1500px), (min-height: 1500px) and (orientation: landscape) {
+  //   font-size: 24px;
+  //   line-height: 39px;
+  // }
 }
 h1 {
   font-size: 2.6363rem;

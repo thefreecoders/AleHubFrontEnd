@@ -25,7 +25,7 @@ webpackJsonp([0,1],[
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	__webpack_require__(240);
+	__webpack_require__(242);
 
 	var APP = document.getElementById('APP');
 
@@ -21424,6 +21424,10 @@ webpackJsonp([0,1],[
 
 	var _Homepage2 = _interopRequireDefault(_Homepage);
 
+	var _Brewers = __webpack_require__(240);
+
+	var _Brewers2 = _interopRequireDefault(_Brewers);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -21431,6 +21435,8 @@ webpackJsonp([0,1],[
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	// TODO: Put back In <Homepage />
 
 	var Application = function (_React$Component) {
 	  _inherits(Application, _React$Component);
@@ -21448,7 +21454,7 @@ webpackJsonp([0,1],[
 	        'div',
 	        null,
 	        _react2.default.createElement(_Nav2.default, null),
-	        _react2.default.createElement(_Homepage2.default, null)
+	        _react2.default.createElement(_Brewers2.default, null)
 	      );
 	    }
 	  }]);
@@ -27343,7 +27349,7 @@ webpackJsonp([0,1],[
 	      return _react2.default.createElement(
 	        "div",
 	        null,
-	        _react2.default.createElement("img", { src: "public/img/banner.jpg", alt: "" }),
+	        _react2.default.createElement("img", { src: "img/banner.jpg", alt: "" }),
 	        _react2.default.createElement(
 	          "h1",
 	          { className: "hidden-xs" },
@@ -27370,6 +27376,242 @@ webpackJsonp([0,1],[
 
 /***/ },
 /* 240 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _AddBrewer = __webpack_require__(241);
+
+	var _AddBrewer2 = _interopRequireDefault(_AddBrewer);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Brewers = function (_React$Component) {
+	  _inherits(Brewers, _React$Component);
+
+	  function Brewers() {
+	    _classCallCheck(this, Brewers);
+
+	    return _possibleConstructorReturn(this, (Brewers.__proto__ || Object.getPrototypeOf(Brewers)).apply(this, arguments));
+	  }
+
+	  _createClass(Brewers, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(_AddBrewer2.default, null)
+	      );
+	    }
+	  }]);
+
+	  return Brewers;
+	}(_react2.default.Component);
+
+	exports.default = Brewers;
+
+/***/ },
+/* 241 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var AddBrewer = function (_React$Component) {
+	  _inherits(AddBrewer, _React$Component);
+
+	  function AddBrewer() {
+	    _classCallCheck(this, AddBrewer);
+
+	    return _possibleConstructorReturn(this, (AddBrewer.__proto__ || Object.getPrototypeOf(AddBrewer)).apply(this, arguments));
+	  }
+
+	  _createClass(AddBrewer, [{
+	    key: 'brewersAddSaveFunction',
+	    value: function brewersAddSaveFunction() {
+	      var valueOfInputs = [];
+	      var idsOfArr = ['brewersAddName', 'brewersAddDecription', 'brewersAddLogo', 'brewersAddStreetAddress', 'brewersAddStreetAddress1', 'brewersAddCity', 'brewersAddState', 'brewersAddZipcode'];
+	      var beerObject = {
+	        'name': '6-Row',
+	        'description': 'German Pilsner',
+	        'logoPath': 'https://www.motherearthbrewco.com/wp-content/themes/motherearth/images/logo-horizontal.svg',
+	        'abv': '4.9%',
+	        'ibu': '37',
+	        'brewer': 'Mother Earth Brew Co.',
+	        'bars': [{
+	          "name": "PAON",
+	          "googlePlaceId": "ChIJoWDQdhBy3IARsa-c9eZot1k",
+	          "sundayDiscounts": null,
+	          "mondayDiscounts": null,
+	          "tuesdayDiscounts": null,
+	          "wednesdayDiscounts": null,
+	          "thursdayDiscounts": null,
+	          "fridayDiscounts": null,
+	          "saturdayDiscounts": null,
+	          "number": null,
+	          "streetName": null,
+	          "city": null,
+	          "state": null,
+	          "zipCode": 0
+	        }]
+	      };
+	      var getDocument = function getDocument(inp) {
+	        //Using Array to select DOM
+	        return document.getElementById(inp);
+	      };
+	      var getValueOfInput = function getValueOfInput(inp) {
+	        //Getting Value of DOM
+	        return inp.value;
+	      };
+	      var mapValuesToArray = function mapValuesToArray(cb) {
+	        //Mapping Values to Array with above Functions
+	        idsOfArr.map(function (data) {
+	          var doc = getDocument(data);
+	          valueOfInputs.push(getValueOfInput(doc));
+	        });
+	        // Sending Back Array after Completion
+	        cb(valueOfInputs);
+	      };
+	      var saveValuesToObject = function saveValuesToObject(inp, cb) {
+	        //Saving Mapped Array to an Object
+	        var valuesOfInputObject = {
+	          'name': inp[0],
+	          'description': inp[1],
+	          'logoPath': inp[2],
+	          'address': inp[3],
+	          'address1': inp[4],
+	          'city': inp[5],
+	          'state': inp[6],
+	          'zipCode': inp[7],
+	          beer: beerObject
+	        };
+
+	        //Sending Back Object to send for AJAX call
+	        cb(valuesOfInputObject);
+	      };
+	      // Calling Functions
+	      mapValuesToArray(function (res) {
+	        saveValuesToObject(res, function (json) {
+	          //AJAX Call
+	          $.ajax({
+	            url: 'http://alehub.gear.host/api/brewersapi',
+	            dataType: 'json',
+	            type: 'POST',
+	            data: json,
+	            success: function success(data) {
+	              console.log(data, 'Correct');
+	            },
+	            error: function error(xhr, status, err) {
+	              console.log(xhr, status, err, 'SOMETHING IS WRONG');
+	            }
+	          });
+	        });
+	      });
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'brewersAdd' },
+	        _react2.default.createElement(
+	          'label',
+	          null,
+	          'Name:'
+	        ),
+	        _react2.default.createElement('input', { type: 'text', id: 'brewersAddName' }),
+	        _react2.default.createElement(
+	          'label',
+	          null,
+	          'Description:'
+	        ),
+	        _react2.default.createElement('input', { type: 'text', id: 'brewersAddDecription' }),
+	        _react2.default.createElement(
+	          'label',
+	          null,
+	          'Logo:'
+	        ),
+	        _react2.default.createElement('input', { type: 'text', id: 'brewersAddLogo' }),
+	        _react2.default.createElement(
+	          'label',
+	          null,
+	          'Street Address:'
+	        ),
+	        _react2.default.createElement('input', { type: 'text', id: 'brewersAddStreetAddress' }),
+	        _react2.default.createElement(
+	          'label',
+	          null,
+	          'Street Address (Apt/something Else):'
+	        ),
+	        _react2.default.createElement('input', { type: 'text', id: 'brewersAddStreetAddress1' }),
+	        _react2.default.createElement(
+	          'label',
+	          null,
+	          'City:'
+	        ),
+	        _react2.default.createElement('input', { type: 'text', id: 'brewersAddCity' }),
+	        _react2.default.createElement(
+	          'label',
+	          null,
+	          'State:'
+	        ),
+	        _react2.default.createElement('input', { type: 'text', id: 'brewersAddState' }),
+	        _react2.default.createElement(
+	          'label',
+	          null,
+	          'Zipcode:'
+	        ),
+	        _react2.default.createElement('input', { type: 'text', id: 'brewersAddZipcode' }),
+	        _react2.default.createElement(
+	          'button',
+	          { id: 'brewersAddSave', className: 'btn btn-main', onClick: this.brewersAddSaveFunction },
+	          'Save'
+	        )
+	      );
+	    }
+	  }]);
+
+	  return AddBrewer;
+	}(_react2.default.Component);
+
+	exports.default = AddBrewer;
+
+/***/ },
+/* 242 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
