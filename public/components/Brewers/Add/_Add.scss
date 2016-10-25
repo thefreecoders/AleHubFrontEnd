@@ -1,0 +1,19 @@
+.brewersAdd {
+margin: 10% auto;
+width: 100%;
+  & input, & label {
+    display: block;
+    margin: 0px auto;
+    max-width: 220px;
+    min-width: 220px;
+  }
+  & label {
+    width: 220px;
+    margin: 4px auto 8px auto;
+  }
+  & button {
+    display: block;
+    width: 220px;
+    margin: 32px auto;
+  }
+}
