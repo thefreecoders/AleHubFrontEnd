@@ -12,7 +12,7 @@ export default class ListBeer extends React.Component {
 
   componentDidMount () {
     $.ajax({
-      url: 'components/Beer/beers.json',
+      url: 'components/Beers/beers.json',
       error: function(data) {
         console.log("Something Broke?!\n\n", data)
       },
