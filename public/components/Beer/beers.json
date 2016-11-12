@@ -1,0 +1,57 @@
+[
+  {
+    "Name": "Beer",
+    "Ibu": "20",
+    "Abv": "100",
+    "Brewer": "Stone I.P.A.",
+    "Description": "It is a beer with 100% Alcohol and it will kill you",
+    "LogoPath": "https://images.blogthings.com/thesunsettest/sunset-3.jpg",
+    "BeerId": "0",
+    "DateAdded": "Beer",
+    "Brewer_BrewerId": "100"
+  },
+  {
+    "Name": "Beer",
+    "Ibu": "20",
+    "Abv": "100",
+    "Brewer": "Stone I.P.A.",
+    "Description": "It is a beer with 100% Alcohol and it will kill you",
+    "LogoPath": "https://images.blogthings.com/thesunsettest/sunset-3.jpg",
+    "BeerId": "1",
+    "DateAdded": "Beer",
+    "Brewer_BrewerId": "100"
+  },
+  {
+    "Name": "Beer",
+    "Ibu": "20",
+    "Abv": "100",
+    "Brewer": "Stone I.P.A.",
+    "Description": "It is a beer with 100% Alcohol and it will kill you",
+    "LogoPath": "https://images.blogthings.com/thesunsettest/sunset-3.jpg",
+    "BeerId": "2",
+    "DateAdded": "Beer",
+    "Brewer_BrewerId": "100"
+  },
+  {
+    "Name": "Beer",
+    "Ibu": "20",
+    "Abv": "100",
+    "Brewer": "Stone I.P.A.",
+    "Description": "It is a beer with 100% Alcohol and it will kill you",
+    "LogoPath": "https://images.blogthings.com/thesunsettest/sunset-3.jpg",
+    "BeerId": "3",
+    "DateAdded": "Beer",
+    "Brewer_BrewerId": "100"
+  },
+  {
+    "Name": "Beer",
+    "Ibu": "20",
+    "Abv": "100",
+    "Brewer": "Stone I.P.A.",
+    "Description": "It is a beer with 100% Alcohol and it will kill you",
+    "LogoPath": "https://images.blogthings.com/thesunsettest/sunset-3.jpg",
+    "BeerId": "4",
+    "DateAdded": "Beer",
+    "Brewer_BrewerId": "100"
+  }
+]
